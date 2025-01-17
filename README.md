@@ -49,7 +49,7 @@ Install the dependencies by typing
 Select the Python Interpreter for your venv environment press ```Left Shift + Ctrl + P```, search for Select Pyhton Interpreter. If it doesn't show /venve/scripts/python.exe find it and select it.
 
 ## Authenticating you app (one off process)
-To authenticate your app open ```initial_auth.py``` and click the run button top right and follow the instructions in the terminal. A window will open with a PIN, enter it and thats your service authentication (its a one off ordeal).
+To authenticate your app open ```initial_auth.py``` and click the run button (▶) top right and follow the instructions in the terminal. A window will open with a PIN, enter it and thats your service authentication (its a one off ordeal).
 
 ## Setup the Database
 Go to http://localhost/phpmyadmin the username should be ```root``` and the password is blank.
@@ -75,7 +75,7 @@ CREATE TABLE posts (
 
 # Running your scheduled Tweets
 
-To get started running your schedules tweets, open the main.py file and click run at the top right.
+To get started running your schedules tweets, open the main.py file and click run button (▶) at the top right.
 
 from within the scheduler foler, that should start looking for new posts.
 
