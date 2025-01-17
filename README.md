@@ -79,7 +79,7 @@ To get started running your schedules tweets, open the main.py file and click ru
 
 from within the scheduler foler, that should start looking for new posts.
 
-To access the website to manage posts access the url, ```http://localhost/x_scheduler/php/```
+To access the website to manage posts access the url, ```http://localhost/x_scheduler/frontend/```
 
 ## More Info
 
