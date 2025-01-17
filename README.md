@@ -85,6 +85,12 @@ To access the website to manage posts access the url, ```http://localhost/x_sche
 
 I will continue to upgrade the sevice and intend to keep it open source.
 
+### Recommended Google Chrome Extensiosn
+- Emjoi Extension - https://chromewebstore.google.com/detail/emoji-keyboard-emojis-for/fbcgkphadgmbalmlklhbdagcicajenei
+- Text Formatting Extension - https://chromewebstore.google.com/detail/right-click-text-format/nbicfaklckciejicmnpgjhbhehacddgh
+
+The functionality of the extensions above will potentially be introduced to the service itself but fior now as a work around you can use the extensions to allow formatting and adding emjois to your scheduled posts.
+
 Please feel free to reach out to me on [X](https://x.com/olliejpb) or by email at ollie@motekso.co.uk
 for any support, ideas or feedback.
 
