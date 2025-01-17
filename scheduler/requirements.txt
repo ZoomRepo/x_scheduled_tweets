@@ -3,3 +3,4 @@ apscheduler
 python-dotenv
 mysql-connector-python
 pymysql
+requests_oauthlib
