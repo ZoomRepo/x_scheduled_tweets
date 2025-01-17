@@ -49,7 +49,7 @@ Install the dependencies by typing
 Select the Python Interpreter for your venv environment press ```Left Shift + Ctrl + P```, search for Select Pyhton Interpreter. If it doesn't show /venve/scripts/python.exe find it and select it.
 
 ## Authenticating you app (one off process)
-To authenticate your app open ```initial_auth.py``` and click the run button (▶) top right and follow the instructions in the terminal. A window will open with a PIN, enter it and thats your service authentication (its a one off ordeal).
+To authenticate your app open ```initial_auth.py``` and click the run button (▶) top right, alternatively run ```python ./initial_auth.py``` and follow the instructions in the terminal. A window will open with a PIN, enter it and thats your service authentication (its a one off deal, you will not have to do it again).
 
 ## Setup the Database
 Go to http://localhost/phpmyadmin the username should be ```root``` and the password is blank.
@@ -75,7 +75,7 @@ CREATE TABLE posts (
 
 # Running your scheduled Tweets
 
-To get started running your schedules tweets, open the main.py file and click run button (▶) at the top right.
+To get started running your schedules tweets, open the main.py file and click run button (▶) at the top right, alternatively run ```python ./run_scheduler.py```.
 
 from within the scheduler foler, that should start looking for new posts.
 
@@ -85,7 +85,15 @@ To access the website to manage posts access the url, ```http://localhost/x_sche
 
 I will continue to upgrade the sevice and intend to keep it open source.
 
+### Recommended Google Chrome Extensiosn
+- Emjoi Extension - https://chromewebstore.google.com/detail/emoji-keyboard-emojis-for/fbcgkphadgmbalmlklhbdagcicajenei
+- Text Formatting Extension - https://chromewebstore.google.com/detail/right-click-text-format/nbicfaklckciejicmnpgjhbhehacddgh
+
+The functionality of the extensions above will potentially be introduced to the service itself but fior now as a work around you can use the extensions to allow formatting and adding emjois to your scheduled posts.
+
 Please feel free to reach out to me on [X](https://x.com/olliejpb) or by email at ollie@motekso.co.uk
 for any support, ideas or feedback.
 
-I hope this is useful. All the best for 2025! 
+I hope you find this useful! 
+
+### All the best for 2025! 🎉
