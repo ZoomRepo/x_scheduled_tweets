@@ -11,6 +11,11 @@ Set the content, time and click schedule and it will do the rest for you...
 
 # Setup
 
+### Prerequisits
+- Visual Studio Code
+- Python3 
+- XAMPP
+
 This section will go over the setup, we currently have only covered Windows machines although I will have this running on my Linux machine so contact me if you want me to go over that side of things as well.
 
 ## Windows setup
@@ -41,8 +46,10 @@ Now start the Virtual Environemnt by typing
 Install the dependencies by typing
 ```pip3 install -r requirements.txt```
 
+Select the Python Interpreter for your venv environment press ```Left Shift + Ctrl + P```, search for Select Pyhton Interpreter. If it doesn't show /venve/scripts/python.exe find it and select it.
+
 ## Authenticating you app (one off process)
-To authenticate your app run ```python3 ./initial_auth.py```
+To authenticate your app open ```initial_auth.py``` and click the run button top right and follow the instructions in the terminal. A window will open with a PIN, enter it and thats your service authentication (its a one off ordeal).
 
 ## Setup the Database
 Go to http://localhost/phpmyadmin the username should be ```root``` and the password is blank.
@@ -68,10 +75,8 @@ CREATE TABLE posts (
 
 # Running your scheduled Tweets
 
-To get started running you schedules tweets, type:
-```
-pyton3 ./main.py
-```
+To get started running your schedules tweets, open the main.py file and click run at the top right.
+
 from within the scheduler foler, that should start looking for new posts.
 
 To access the website to manage posts access the url, ```http://localhost/x_scheduler/php/```
