@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #14171a;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccd6dd;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type="datetime-local"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccd6dd;
+    border-radius: 5px;
+}
+
+.schedule-button {
+    padding: 5px 10px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.schedule-button:hover {
+    background-color: #0d8cd2;
+}
+
+.post-card {
+    background: #ffffff;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    font-size: 16px;
+    color: #14171a;
+    margin: 0 0 10px;
+}
+
+.post-time {
+    font-size: 14px;
+    color: #657786;
+}
+.govuk-tag {
+    font-size: 1rem !important;
+}
+.success {
+    color: #17bf63;
+}
+
+.error {
+    color: #e0245e;
+}
+
+.delete-btn {
+    background-color: #e0245e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #c21c4d;
+}
