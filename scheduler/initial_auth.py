@@ -1,17 +1,15 @@
 from requests_oauthlib import OAuth1Session
+from dotenv import load_dotenv
 import os
 import json
 
-# In your terminal please set your environment variables by running the following lines of code.
-# export 'CONSUMER_KEY'='<your_consumer_key>'
-# export 'CONSUMER_SECRET'='<your_consumer_secret>'
+load_dotenv()
+
 consumer_key = os.getenv('API_KEY')
 consumer_secret  = os.getenv('API_SECRET')
 
-# Be sure to add replace the text of the with the text you wish to Tweet. You can also add parameters to post polls, quote Tweets, Tweet with reply settings, and Tweet to Super Followers in addition to other features.
 payload = {"text": "Whats with the pin X API?"}
 
-# Get request token
 request_token_url = "https://api.twitter.com/oauth/request_token?oauth_callback=oob&x_auth_access_type=write"
 oauth = OAuth1Session(consumer_key, client_secret=consumer_secret)
 
@@ -49,7 +47,6 @@ access_token_secret = oauth_tokens["oauth_token_secret"]
 with open("access_tokens.json", "w") as token_file:
     json.dump(oauth_tokens, token_file)
 
-# Make the request
 oauth = OAuth1Session(
     consumer_key,
     client_secret=consumer_secret,
@@ -57,7 +54,6 @@ oauth = OAuth1Session(
     resource_owner_secret=access_token_secret,
 )
 
-# Making the request
 response = oauth.post(
     "https://api.twitter.com/2/tweets",
     json=payload,
