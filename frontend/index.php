@@ -21,7 +21,8 @@ $posts = $result->fetch_all(MYSQLI_ASSOC);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scheduled Posts</title>
+    <title>Scheduled Posts</title>  
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/stylesheets/styles.css">
     <link rel="manifest" href="assets/manifest.json">
     <link rel="stylesheet" href="assets/stylesheets/govuk-frontend-5.8.0.min.css">
