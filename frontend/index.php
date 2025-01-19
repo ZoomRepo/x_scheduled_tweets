@@ -1,4 +1,15 @@
 <?php
+session_start();
+
+// Check if the user is logged in
+if (!isset($_SESSION['user_id'])) {
+    // Redirect to the login page if not logged in
+    header('Location: login.php');
+    exit();
+}
+?>
+
+<?php
 require 'db.php';
 
 $result = $conn->query("SELECT id, content, post_time, status FROM posts ORDER BY post_time DESC");
