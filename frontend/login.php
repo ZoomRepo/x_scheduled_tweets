@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="logo">
             <!-- Replace with your logo -->
-            <img src="logo.png" alt="Logo">
+            <img src="assets/images/x-secheduler_cover_logo.png" alt="Logo">
         </div>
         <h3 class="text-center">Login</h3>
         <?php if (isset($error)): ?>
