@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C Tweet Scheduler - Login</title>  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <title>X Tweet Scheduler - Login</title>  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -91,9 +91,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <button type="submit" class="btn btn-primary">Login</button>
         </form>
-        <!-- <div class="footer-text">
+        <div class="footer-text">
             Don't have an account? <a href="register.php">Register</a>
-        </div> -->
+        </div>
     </div>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

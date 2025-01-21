@@ -55,6 +55,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generate Invite Code</title>
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -86,7 +87,7 @@ try {
 <body>
     <div class="generate-container">
         <div class="logo">
-            <img src="logo.png" alt="Logo">
+            <img src="assets/images/generate invite.png" alt="Logo">
         </div>
         <h3 class="text-center">Generate Invite Code</h3>
         <?php if (isset($error)): ?>
@@ -100,10 +101,12 @@ try {
         <?php endif; ?>
         <form action="generate_invite.php" method="POST">
             <button type="submit" class="btn btn-primary">Generate Invite Code</button>
-        </form>
-        <div class="mt-3 text-center">
+        </form></br>
+        <a style="text-decoration:none; color: #FF5E00;" 
+        href="index.php">Back to Home</a>
+        <!-- <div class="mt-3 text-center">
             <a href="index.php" class="btn btn-secondary">Back to Dashboard</a>
-        </div>
+        </div> -->
     </div>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
