@@ -29,8 +29,6 @@ with open("access_tokens.json", "r") as token_file:
 oauth_token = access_tokens["oauth_token"]
 oauth_token_secret = access_tokens["oauth_token_secret"]
 tweet_url = "https://api.twitter.com/2/tweets"
-# communities= ['1493446837214187523']
-# Create an OAuth1Session with saved tokens
 oauth = OAuth1Session(
     API_KEY,
     client_secret=API_SECRET,

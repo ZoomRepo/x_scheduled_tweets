@@ -1,9 +1,9 @@
- # X Scheduled Tweets
+ # X Scheduled Tweets - Personal (Opensource version)
 
 
-Project by: [Ollie Beumkes](https://x.com/olliejpb)
+Project by: [Ollie Beumkes](https://x.com/motekso)
 
-The aim of this project is to allow people to forcast tweets helping keep up their media presence and help with motivation, planning ahead of time and taking away the burden from thinking what to write and having to be emotionally envolved with that aspect of growing themselves whilst working on projects.
+This free opensource project allows people to forcast tweets helping keep up their media presence and help with motivation, and online presence. You can plan your content ahead of time taking away the burden of thinking what to write and having to be emotionally attached to that aspect of growing themselves whilst working on projects.
 
 Think of it as a technical PR service that you can offload your thoughts, ideas and goals; set deadlines and start conversations without having to pysically keep track of whether or not you feel you are ready to post.
 
@@ -91,7 +91,7 @@ I will continue to upgrade the sevice and intend to keep it open source.
 
 The functionality of the extensions above will potentially be introduced to the service itself but fior now as a work around you can use the extensions to allow formatting and adding emjois to your scheduled posts.
 
-Please feel free to reach out to me on [X](https://x.com/olliejpb) or by email at ollie@motekso.co.uk
+Please feel free to reach out to me on [X](https://x.com/motekso) or by email at ollie@motekso.co.uk
 for any support, ideas or feedback.
 
 I hope you find this useful! 
