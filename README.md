@@ -1,4 +1,4 @@
- # X Scheduled Tweets - Personal (Opensource version)
+ # X Scheduled Tweets - Personal (opensource version)
 
 
 Project by: [Ollie Beumkes](https://x.com/motekso)
@@ -91,7 +91,7 @@ To access the website to manage posts access the url, ```http://localhost/x_sche
 I will continue to upgrade the sevice and intend to keep it open source.
 
 ### Recommended Google Chrome Extensiosn
-- Emjoi Extension - https://chromewebstore.google.com/detail/emoji-keyboard-emojis-for/fbcgkphadgmbalmlklhbdagcicajenei
+- Emjoi Extension - https://chromewebstore.google.com/detail/keyboardcool-emoji-symbol/fddpbejpobddgojgjoeojcicdlehlcpl?hl=en-US&utm_source=ext_sidebar
 - Text Formatting Extension - https://chromewebstore.google.com/detail/right-click-text-format/nbicfaklckciejicmnpgjhbhehacddgh
 
 The functionality of the extensions above will potentially be introduced to the service itself but fior now as a work around you can use the extensions to allow formatting and adding emjois to your scheduled posts.
