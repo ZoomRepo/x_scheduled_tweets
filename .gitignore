@@ -1,4 +1,3 @@
 */venv/*
-scheduler/.env
-
-access_tokens.json
+*.env
+*access_tokens.json

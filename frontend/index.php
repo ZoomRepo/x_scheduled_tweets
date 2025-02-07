@@ -21,7 +21,7 @@ $posts = $result->fetch_all(MYSQLI_ASSOC);
         <h1 style="margin-left: 20px; display: inline-block; width: 50%;">Scheduled Posts</h1>
         <a style="display:inline-block; padding-right: 20px;margin-top: 20px;text-decoration:none; color: #FF5E00;" href="submit.php">Create post</a>
         <?php if (empty($posts)): ?>
-            <p>No scheduled posts yet.</p>
+            <p style="margin-left: 20px;">No scheduled posts yet.</p>
         <?php else: ?>
             <?php foreach ($posts as $post): ?>
                 <div class="post-card">

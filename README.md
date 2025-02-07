@@ -46,10 +46,15 @@ Now start the Virtual Environemnt by typing
 Install the dependencies by typing
 ```pip3 install -r requirements.txt```
 
-Select the Python Interpreter for your venv environment press ```Left Shift + Ctrl + P```, search for Select Pyhton Interpreter. If it doesn't show /venve/scripts/python.exe find it and select it.
+You should now be able to run the initial_auth.py by running:
+```python ./initial_auth.py```
+
+If you have any issues in your Vidsual Studio select the Python Interpreter for your venv environment press ```Left Shift + Ctrl + P```, search for Select Pyhton Interpreter. If it doesn't show /venv/scripts/python.exe find it and select it.
 
 ## Authenticating you app (one off process)
 To authenticate your app open ```initial_auth.py``` and click the run button (▶) top right, alternatively run ```python ./initial_auth.py``` and follow the instructions in the terminal. A window will open with a PIN, enter it and thats your service authentication (its a one off deal, you will not have to do it again).
+
+Enter the pin in the terminal and it will generate your access_token.json file used for authenticating your post requests for you.
 
 ## Setup the Database
 Go to http://localhost/phpmyadmin the username should be ```root``` and the password is blank.

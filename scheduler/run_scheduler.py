@@ -2,7 +2,6 @@ import json
 import mysql.connector
 from datetime import datetime
 import time
-from apscheduler.schedulers.background import BackgroundScheduler
 from requests_oauthlib import OAuth1Session
 from dotenv import load_dotenv
 import os
@@ -60,14 +59,13 @@ def mark_posted(post_id):
 def post_content(post):
     """Post content to Twitter."""
     try:
-        # Example: Post a tweet
-        # for community in communities:
         response = oauth.post(tweet_url, json={"text": post['content']})
-
         if response.status_code == 201:
             print(f"Successfully posted: {post['content']} at {datetime.now()}")
             mark_posted(post['id'])
-
+        else:
+            error_json = response.json()
+            print(f"Failed to post: {post['content']}. Status {response.status_code}, Error: {error_json}")
     except Exception as e:
         print(f"Failed to post: {post['content']} due to {e}")
 
@@ -77,16 +75,12 @@ def check_and_post():
     for post in posts:
         post_content(post)
 
-# Schedule posts
-scheduler = BackgroundScheduler()
-scheduler.add_job(check_and_post, 'interval', seconds=60)  # Check every minute
-scheduler.start()
-
 print("Scheduler is running...")
 
 # Keep the script running
 try:
     while True:
-        time.sleep(1)
+        check_and_post()
+        time.sleep(60)
 except (KeyboardInterrupt, SystemExit):
-    scheduler.shutdown()
+    exit()
